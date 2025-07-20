@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sidebar Clone</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+    <css></css>
+  </link>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="profile-section">
+      <div class="profile-header">
+        <img src="" alt="" />
+        <div>
+          <strong>Nidal</strong> <span class="plan-text">Free Plan</span>
+        </div>
+      </div>
+      <div class="nav-link" data-link="go-premium">
+        <i class="fa-solid fa-crown rotate-hover"></i> Go Premium <span class="try-free">Try It Free</span>
+      </div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-link" data-link="my-day"><i class="fa-solid fa-sun rotate-hover scale-click"></i> My Day</div>
+      <div class="nav-link" data-link="next-7-days"><i class="fa-solid fa-calendar-week rotate-hover scale-click"></i> Next 7 Days <span style="margin-left:auto;font-size: 12px; color:#666;">5</span></div>
+      <div class="nav-link" data-link="all-tasks"><i class="fa-solid fa-list-check rotate-hover scale-click"></i> All my tasks <span style="background:#007bff;color:#fff;border-radius:50%;padding:3px 7px;font-size:12px;margin-left:auto;">5</span></div>
+      <div class="nav-link" data-link="my-calendar"><i class="fa-solid fa-calendar-days rotate-hover scale-click"></i> My Calendar</div>
+
+      <div class="section-title">
+        <span>My Lists</span>
+        <i class="fa-solid fa-plus add-icon" id="add-list-btn" title="Add new list"></i>
+      </div>
+      <div id="list-container">
+        <div class="nav-link" data-list-name="Personal">Personal <span style="margin-left:auto;font-size: 12px; color:#666;">5</span></div>
+        <div class="nav-link" data-list-name="Work">Work</div>
+        <div class="nav-link" data-list-name="Grocery List">Grocery List</div>
+      </div>
+
+      <div class="section-title">
+        <span>Tags</span>
+        <i class="fa-solid fa-plus add-icon" id="add-tag-btn" title="Add new tag"></i>
+      </div>
+      <div id="tag-container">
+        <span class="tag">#Priority</span>
+      </div>
+
+      <div class="add-space">
+        <i class="fa-solid fa-user-plus"></i> Add shared space
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
