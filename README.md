@@ -1,5 +1,5 @@
 # 📚 Sidebar Components Collection
-
+## Edited By nidal Hasnaoui !
 Welcome to my **Sidebar Components Collection** — a curated set of sidebar designs built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. This project includes multiple sidebar variations: vertical, collapsible, animated, and responsive designs, perfect for modern websites and dashboards.
 
 ## 🚀 Why this project?
@@ -32,4 +32,3 @@ This repository was created to:
 ├── sidebar-final/      # Final version (most optimized & stylish)
 └── assets/             # Icons, fonts, and other shared assets
 
-## Edited By nidal Hasnaoui !
