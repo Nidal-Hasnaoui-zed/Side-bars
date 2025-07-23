@@ -31,3 +31,5 @@ This repository was created to:
 ├── sidebar-v3/         # Animated sidebar
 ├── sidebar-final/      # Final version (most optimized & stylish)
 └── assets/             # Icons, fonts, and other shared assets
+
+## Edited By nidal Hasnaoui !
