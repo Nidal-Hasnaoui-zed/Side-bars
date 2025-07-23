@@ -26,9 +26,16 @@ This repository was created to:
 ```bash
 /sidebars/
 │
-├── sidebar-v1/         # Classic vertical sidebar
-├── sidebar-v2/         # Collapsible sidebar
-├── sidebar-v3/         # Animated sidebar
-├── sidebar-final/      # Final version (most optimized & stylish)
-└── assets/             # Icons, fonts, and other shared assets
+├── side_bar_1/        
+├── side_bar_2/       
+├── side_bar_3/         
+├── side_bar_4/      
+└── side_bar_5/
+└── side_bar_6/
+└── side_bar_7/          
+└── side_bar_8/          
+└── side_bar_9/          
+└── side_bar_10/
+└── side_bar_11/
+└── side_bar_12/            
 
